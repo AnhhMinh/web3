@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="datphong.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://kit.fontawesome.com/1406c749b8.js" crossorigin="anonymous"></script>
+     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+   </head>
+<body>  
+  <div class="container">
+    <div class="title">Đặt phòng</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Ngày đến*</span>
+            <input type="date" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Ngày đi*</span>
+            <input type="date" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Người lớn</span>
+            <input type="number" min="0" placeholder="0" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Trẻ em</span>
+            <input type="number" min="0" placeholder="0" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email </span>
+            <input type="email" name="" id="" placeholder="Nhập email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Quốc gia</span>
+            <input type="text" placeholder="Mời nhập quốc gia" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Họ tên</span>
+            <input type="text" placeholder="Nhập tên" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Mã chuyến bay</span>
+            <input type="text" placeholder="Nhập mã" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Số điện thoại</span>
+            <input type="text" placeholder="Nhập số điện thoại" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Thời gian đến</span>
+            <input type="text" placeholder="Nhập thời gian đến" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Địa chỉ</span>
+            <input type="text" placeholder="Nhập địa chỉ" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Thành phố</span>
+            <input type="text" placeholder="Nhập thành phố" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        <div class="user-details">
+          <table border="1" cellpadding="10" class="width_table">
+            <tr>
+              <th>Loại phòng</th>
+              <th>Giá/Đêm</th>
+              <th>Số người tối đa</th>
+              <th>Chọn phòng</th>
+            </tr>
+            <tr>
+              <td><a href="#">DELUXE</a></td>
+              <td>1.260.000 VNĐ</td>
+              <td>2</td>
+              <td><input type="number" min="0"></td>
+            </tr>
+            <tr>
+              <td><a href="#">RAVATEL SUITE</a></td>
+              <td>3.200.000 VNĐ</td>
+              <td>2</td>
+              <td><input type="number" min="0"></td>
+            </tr>
+            <tr>
+              <td><a href="#">SUPERIOR</a></td>
+              <td>900.000 VNĐ</td>
+              <td>2</td>
+              <td><input type="number" min="0"></td>
+            </tr>
+            <tr>
+              <td><a href="#">PREMIER DELUXE</a></td>
+              <td>1.785.000 VNĐ</td>
+              <td>2</td>
+              <td><input type="number" min="0"></td>
+            </tr>
+          </table>
+        </div><br>
+        <div class="dk">
+          <input type="checkbox" id="check1">
+          <span class="details"><label for="check1">Tôi đã đọc và đồng ý với các điều khoản và điều kiện của khách sạn Khách sạn Ravatel Inn</label></span>
+        </div>
+        <div class="button">
+          <input type="submit" value="Đăng ký">
+        </div>
+        <div class="button">
+          <a href="motel (1).html">
+              <button onclick="doSomething()">Quay lại!</button>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+</body>
+</html>
